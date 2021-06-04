@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iframe Componente</title>
+</head>
+<body>
+  <div class="component">
+    <iframe src="https://ivallejo-infobae.github.io/elecciones-diputados-2021/" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+    <style>
+      .component {
+        width: 100%;
+      }
+      .component iframe {
+        display: block;
+        width: 100%;
+        min-height: 600px;
+      }
+    </style>
+    <style media="screen and (min-width:768px)">
+      .component {
+        max-width: 768px;
+      }
+      .component iframe {
+        min-height: 900px;
+      }
+    </style>
+  </div>
+</body>
+</html>
