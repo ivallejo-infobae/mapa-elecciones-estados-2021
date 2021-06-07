@@ -21,7 +21,7 @@ $orange-infobae: #f68e01;
 $breakpoints: (
   xs: rem(360px),
   sm: rem(375px),
-  md: rem(768px),
+  md: rem(758px),
   lg: rem(992px),
   xl: rem(1200px),
   xxl: rem(1600px)
@@ -72,9 +72,14 @@ body {
   }
 }
 
+.text-instructions {
+  text-align: center;
+}
+
 .wrapper-map {
   position: relative;
   min-height: 320px;
+  margin-top: 30px;
   @include media-query(md) {
     min-height: 650px;
   }
@@ -82,7 +87,7 @@ body {
 
 .background-map {
   background: url('../img/background-map-2.png') no-repeat center top;
-  background-size: cover;
+  background-size: 100%;
   position: absolute;
   top: 0; left: 0;
   width: 100%;
